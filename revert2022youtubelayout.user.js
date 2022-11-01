@@ -20,7 +20,7 @@ const ATTRS = [
 
 // Regular config keys.
 const CONFIGS = {
-    BUTTON_REWORK: true
+    BUTTON_REWORK: false
 }
 
 // Experiment flags.
@@ -35,9 +35,15 @@ const EXPFLAGS = {
     enable_player_param_truncation_before_navigation_on_web: true,
     enable_sasde_for_html: false,
     web_amsterdam_playlists: false,
+    kevlar_update_youtube_sans: false,
+    kevlar_queue_use_update_api: false,
+    kevlar_background_color_update: false,
+    kevlar_player_disable_rvs_update: true,
+    kevlar_typography_spacing_update: false,
     web_animated_like: false,
     web_animated_like_lazy_load: false,
     web_button_rework: false,
+    web_button_rework_with_live: false,
     web_darker_dark_theme: false,
     web_guide_ui_refresh: false,
     kevlar_refresh_gesture: false,
@@ -63,8 +69,11 @@ const EXPFLAGS = {
     web_modern_chips: false,
     web_modern_dialogs: false,
     web_modern_playlists: false,
+    web_old_shorts_buttons_look: true,
     web_modern_subscribe: false,
     web_rounded_containers: false,
+    kevlar_typography_update: false,
+    web_favicon_image_update: false,
     web_rounded_thumbnails: false,
     web_searchbar_style: "default",
     web_segmented_like_dislike_button: false,
